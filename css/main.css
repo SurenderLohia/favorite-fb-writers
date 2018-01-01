@@ -1,0 +1,43 @@
+/* bulma overwrites */
+
+body {
+  line-height: 1.7;
+}
+
+.title {
+	line-height: 1.4;
+}
+
+/* bulma overwrites end */
+
+
+/* 
+	Custom Styles:  
+	Author: Surender Lohia;
+*/
+.wrap-big,
+.wrap {
+  margin: 0 auto;
+  position: relative;
+}
+
+.wrap {
+	max-width: 460px;
+}
+
+.wrap-big {
+	max-width: 600px;
+}
+
+.bottom-spacing {
+	margin-bottom: 2rem;
+}
+
+.bottom-spacing-small {
+	margin-bottom: 1rem;
+}
+
+.image-credit {
+	padding-left: 1.5rem;
+	padding-top: .5rem;
+}
