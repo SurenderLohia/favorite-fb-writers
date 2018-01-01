@@ -280,5 +280,21 @@
         </div>
       </div>
     </section>
+
+    <script>
+      var gtag = document.createElement("script");
+
+      if (document.location.hostname.search("surender.net") !== -1) {
+        gtag.src = "https://www.googletagmanager.com/gtag/js?id=UA-91796846-2";
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-91796846-2');
+      }
+
+    </script>
+
   </body>
 </html>
