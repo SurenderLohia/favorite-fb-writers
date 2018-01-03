@@ -51,7 +51,8 @@ body {
 	position: relative;
 	display: block;
 	overflow: hidden;
-	outline: 1px solid #fff;
+	background: #209cee;
+	margin: 1px;
 }
 
 .thumb-caption {
@@ -66,10 +67,11 @@ body {
 }
 
 .grid-container-desktop .thumb img {
-	transition: transform  0.6s ease;
+	transition: all  0.6s ease;
 }
 
 .grid-container-desktop .thumb:hover img {
+	opacity: 0.7;
 	transform: scale(1.2);
 }
 
