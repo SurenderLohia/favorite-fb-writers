@@ -15,6 +15,11 @@ body {
 	Custom Styles:  
 	Author: Surender Lohia;
 */
+html
+body, {
+	transition: all 0.6s ease;
+}
+
 .wrap-big,
 .wrap {
   margin: 0 auto;
@@ -75,10 +80,17 @@ body {
 	transform: scale(1.2);
 }
 
-.back-to-top {
+.back-to-top-btn {
+	transition: opacity 0.6s ease;
+	opacity: 0;
 	position: fixed;
 	bottom: 10px;
 	right: 10px;
+	overflow: hidden;
+}
+
+.back-to-top-btn.is-active-btn {
+	opacity: 1;
 }
 
 .ver-aligh-bottom {
@@ -102,6 +114,10 @@ body {
 
 .link:hover {
 	text-decoration: none;
+}
+
+.nowrap {
+	white-space: nowrap;
 }
 
 /* https://codepen.io/chrisnager/pen/GgBxGm */
