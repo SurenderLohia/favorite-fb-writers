@@ -137,6 +137,64 @@ body, {
 	white-space: nowrap;
 }
 
+.icon {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+}
+
+.icon > svg {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.icon, 
+.icon > svg path {
+  transition: all .2s ease;
+}
+
+.icon.is-rounded {
+    border-radius: 50%;
+}
+
+.icon.is-white {
+	color: #fff;
+    border: 1px solid #fff;
+}
+
+.icon.is-white:hover {
+    text-decoration: none;
+    background-color: #fff;
+}
+
+.icon.is-white svg {
+	fill: #fff;
+}
+
+.icon.is-white:hover svg {
+	fill: #ff3860;
+}
+
+.mr10 {
+	margin-right: 10px;
+}
+
+.subtitle.bottom-spacing-small:not(:last-child), 
+.title.bottom-spacing-small:not(:last-child) {
+	margin-bottom: 1rem;
+}
+
 /* https://codepen.io/chrisnager/pen/GgBxGm */
 .gh-button {
     display: inline-block;
